@@ -7,6 +7,9 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     background-color: #ffb6c1;
     display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     grid-template-rows: auto 1fr auto ;
     min-height: 100vh;
 }
@@ -56,10 +59,16 @@ li {
 
 footer {
     grid-row: 3/4;
-    background-color: #f4f4f4;
-    color: #999;
+    background-color: #f5fffa;
+    color: #d37b7b;
     text-align: center;
     padding: 20px;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    background-color: #d37b7b;
 }
 
 article {
@@ -114,3 +123,16 @@ img {
     vertical-align: middle;
 }
 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 0;
+    width: 100%;
+}
+
+th {
+    background-color: #d3d3d3;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
