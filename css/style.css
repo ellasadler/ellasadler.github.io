@@ -5,7 +5,7 @@
 body {
     /* margin: 0; */
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    background-color: #ffb6c1;
+    background-color: #fcd8de;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -26,6 +26,7 @@ h1 {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 0;
+    text-align: center;
 }
 
 main {
@@ -40,12 +41,15 @@ h2 {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: center;
+    background-color: #d37b7b;
 }
 
 h3 {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 ul {
@@ -131,8 +135,21 @@ table {
 }
 
 th {
-    background-color: #d3d3d3;
+    background-color: #0070c0;
     font-weight: bold;
     text-align: left;
     padding: 10px;
+}
+
+tr {
+    border-bottom: 1px solid #d37b7b;
+}
+
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+p {
+    text-align: center;
 }
