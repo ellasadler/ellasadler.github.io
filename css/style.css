@@ -5,4 +5,49 @@ body {
     /* margin: 0; */
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     background-color: #f5f5dc;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 50% auto;
 }
+
+p {
+    text-align: center;
+}
+
+header {
+    grid-row: 1/2;
+    background-color: #fba5de;
+    color: #fff;
+    padding: 20px;
+    grid-template-rows: 60px;
+}
+
+footer {
+    grid-template-rows: 60px;
+}
+
+h1 {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #f37eb3;
+}
+
+img {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
